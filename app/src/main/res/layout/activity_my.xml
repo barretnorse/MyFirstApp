@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="379dp"
+        android:text="@string/button_send"
+        android:onClick="sendMessage"
+        android:layout_gravity="center"
+        android:layout_row="7"
+        android:layout_column="1"
+        android:background="@color/button_material_dark"
+        android:textColor="#fffffdf7" />
+</FrameLayout>
